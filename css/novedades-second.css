@@ -1,0 +1,51 @@
+[class=title-flex] {
+    margin-left: 1rem;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+#novedades,
+#peliculas,
+#series,
+#favoritos,
+#similares {
+    padding: 0;
+    margin-right: 2.5rem;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    text-align: justify;
+}
+
+.card-image img {
+    width: 100%;
+    padding-right: 0.5rem;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-right: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(100%);
+    display: none;
+}
+
+.card-overlay b {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.card:hover .card-overlay {
+    display: inherit;
+    transform: translateY(0%);
+    z-index: 1;
+}

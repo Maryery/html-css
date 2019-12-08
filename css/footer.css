@@ -1,0 +1,21 @@
+.footer-container {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: space-between;
+}
+
+.footer-container p,
+select {
+    color: rgb(161, 161, 161);
+    margin-top: 1.5rem;
+}
+
+.footer-container select {
+    width: 12rem;
+    height: 1.5rem;
+    cursor: pointer;
+    border-color: rgb(161, 161, 161);
+    border-style: solid;
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,22 @@
+* {
+    font-family: "Gotham SSm A", "Gotham SSm B", "Century Gothic", Futura, Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+body {
+    min-width: 320px;
+}
+
+main {
+    max-width: 100%;
+    margin-left: 2rem;
+}
+
+section {
+    padding: 1rem 0;
+}
+
+section img {
+    max-width: 100%;
+}
