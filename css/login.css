@@ -21,16 +21,16 @@
 }
 
 .condition-container p {
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 .condition-container ul {
-    font-size: 1rem;
+    font-size: 1.25rem;
     list-style-image: dics;
 }
 
 .form-container {
-    font-size: 0.85rem;
+    font-size: 1.25rem;
 }
 
 input[type=checkbox] {
