@@ -20,6 +20,10 @@
     padding-right: 2rem;
 }
 
+.condition-container img {
+    max-width: 25rem;
+}
+
 .condition-container p {
     font-size: 1.25rem;
 }
