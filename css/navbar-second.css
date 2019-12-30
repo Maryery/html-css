@@ -1,7 +1,7 @@
 .navbar>.navbar-list {
     list-style-type: none;
     float: right;
-    margin: 0;
+    margin-top: 3.5rem;
 }
 
 .navbar-list>.navbar-item {
@@ -25,7 +25,7 @@
     height: 2rem;
     width: 10rem;
     position: relative;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     margin-bottom: 2rem;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -43,6 +43,7 @@
     height: 1.5rem;
     color: rgb(161, 161, 161);
     cursor: pointer;
+    margin-top: 2rem;
     border-color: rgb(161, 161, 161);
     border-style: solid;
     border-radius: 0.25rem;
