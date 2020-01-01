@@ -47,7 +47,6 @@
         padding: 0%;
     }
     .trailer-video>video {
-        /*width: 100vw;*/
         max-width: 100vw;
     }
     .summary-tab {
