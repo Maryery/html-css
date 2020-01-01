@@ -1,6 +1,8 @@
 .card-container a {
     text-decoration: none;
     background-color: transparent;
+    width: 100%;
+    height: 100%;
     position: absolute;
     font-size: 6rem;
     color: transparent;
