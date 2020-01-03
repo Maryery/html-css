@@ -9,8 +9,8 @@
 }
 
 .summary-tab {
-    width: 50vw;
-    max-width: 50vw;
+    width: 50%;
+    max-width: 100vw;
 }
 
 .summary-tab p {
@@ -19,7 +19,7 @@
 
 .summary-tab-container {
     display: flex;
-    flex-direction: inline;
+    flex-direction: inline-block;
 }
 
 .summary-tab-container>.summary-tab p {
@@ -27,10 +27,21 @@
     margin-right: 2rem;
 }
 
+.play-video a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 163, 218);
+    height: 3rem;
+    width: 15rem;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 1rem;
+}
+
 .trailer-video>video {
-    width: 50vw;
-    height: 400px;
-    max-width: 50vw;
+    width: 50%;
+    height: 500px;
+    max-width: 100vw;
     margin-right: 10rem;
     padding-top: -10rem;
 }
