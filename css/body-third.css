@@ -90,16 +90,6 @@
     text-align: justify;
 }
 
-.card-container a {
-    text-decoration: none;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    font-size: 3rem;
-    color: transparent;
-}
-
 .summary-tab-container {
     display: flex;
     flex-direction: inline-block;
