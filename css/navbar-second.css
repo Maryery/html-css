@@ -59,26 +59,8 @@
     box-shadow: none;
 }
 
-@media all and (max-width: 1000px) {
-    .menu>form {
+@media (max-width:576px) {
+    nav, form {
         display: none;
-    }
-}
-
-@media all and (max-width: 790px) {
-    .header-container>img {
-        display: block;
-        margin: auto;
-    }
-    .navbar>.navbar-list {
-        display: none;
-    }
-    .menu>form {
-        display: none;
-    }
-    .sign-off>form>button {
-        height: 2rem;
-        width: 5rem;
-        margin-top: 2.5rem;
     }
 }
