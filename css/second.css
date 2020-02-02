@@ -40,8 +40,16 @@
     transform: translateY(100%);
     display: none;
 }
+.card-overlay .title-card {
+    font-weight: bolder;
+}
 
-.card-overlay b {
+.card-overlay .info {
+    display:flex;
+    justify-content: space-between;
+}
+
+.card-overlay .description {
     background-color: rgba(0, 0, 0, 0);
 }
 
@@ -51,6 +59,14 @@
     z-index: 1;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  
+@media (max-width: 768px){
+    .card-container {
+        flex-direction: column;
+    }
+    .card-overlay {
+        display: inherit;
+        font-size: 1.25rem;
+        transform: translateY(0%);
+        z-index: 1;
+    }
 }
