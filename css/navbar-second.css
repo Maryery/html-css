@@ -1,23 +1,88 @@
-.navbar>.navbar-list {
+.logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 1rem;
+    margin-left: 3rem;  
+}    
+
+.logo a {
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.75);
+    height: 5rem;
+    z-index: 10;
+    min-width: 320px;
+  }
+#burger-checkbox {
+    display: none;
+}
+
+#burger-checkbox {
+    z-index: 3;
+    position: absolute;
+    top: 1.5rem;
+    left: .5rem;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0;
+}
+
+#burger-checkbox:checked ~ .navbar-list {
+    display: inherit;
+  }
+  
+.burger-label {
+    z-index: 3;
+    position: absolute;
+    top: 1.5rem;
+    left: .5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+  }
+  
+.burger-label:before {
+    content: "";
+    position: absolute;
+    background: grey;
+    width: 1em;
+    height: 0.15em;
+    left: 0.1em;
+    top: 0.25em;
+    box-shadow: 0 0.25em 0 0 grey,
+    0 0.5em 0 0 grey
+}
+
+.navbar-list {
     list-style-type: none;
-    float: right;
-    margin-top: 3.5rem;
-}
-
-.navbar-list>.navbar-item {
-    display: inline-block;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar-item a {
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 0;
+    background: black;
+    width: 80%;
+    max-width: 280px;
+    margin-right: 2rem;
+  }
+  
+  .navbar-item > a {
+    display: block;
+    padding: 1rem;
     text-decoration: none;
     margin-left: 2rem;
-}
+    transition: all ease-in .15s;
+  }
+  
+  .navbar-item:hover > a {
+    background: rgb(0, 163, 218);
+    color: black;
+  }
 
 .sign-off>form>button {
     color: rgb(255, 255, 255);
@@ -38,29 +103,29 @@
     border-radius: 1rem;
 }
 
-.search>input {
-    width: 10rem;
-    height: 1.5rem;
-    color: rgb(161, 161, 161);
-    cursor: pointer;
-    margin-top: 2rem;
-    border-color: rgb(161, 161, 161);
-    border-style: solid;
-    border-radius: 0.25rem;
-    box-shadow: none;
-}
-
-.search>button {
-    height: 1.5rem;
-    color: rgb(161, 161, 161);
-    border-radius: 0.25rem;
-    border-color: rgb(161, 161, 161);
-    border-style: solid;
-    box-shadow: none;
-}
-
-@media (max-width:576px) {
-    nav, form {
+@media (min-width: 576px) {}
+@media (min-width: 768px) {}
+@media (min-width: 992px) {
+    .burger-label {
         display: none;
     }
-}
+
+    .navbar .header-container{
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .navbar-list {
+        flex: 1 0;
+        height: unset;
+        width: unset;
+        max-width: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background: transparent;
+    }
+}  

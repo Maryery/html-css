@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=viewport, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
@@ -15,408 +15,358 @@
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-            <div class="header-container">
-                <img src="./img/hbo.png">
-            </div>
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-item"><a href="#novedades">NOVEDADES</a></li>
-                    <li class="navbar-item"><a href="#series">SERIES</a></li>
-                    <li class="navbar-item"><a href="#peliculas">PELICULAS</a></li>
-                    <li class="navbar-item"><a href="#favoritos">FAVORITOS</a></li>
-                </ul>
-            </nav>
-            <form>
-                <div class="search">
-                    <input type="search" placeholder="Buscar contenido">
-                    <button type="button">Buscar</button>
-                </div>
-            </form>
-            <div class="sign-off">
-                <form action="index.html">
-                    <button type="submit">Cerrar sesión</button>
-                </form>
-            </div>
-        </div>
-    </header>
-    <main>
-        <section id="novedades">
-            <div class="title-flex">
-                <h3>NOVEDADES</h3>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="#navbar"><span>HBO</span></a>
+          </div>
+        <input type="checkbox" id="burger-checkbox">
+        <label for="burger-checkbox" class="burger-label"></label>
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="#novedades">NOVEDADES</a></li>
+            <li class="navbar-item"><a href="#series">SERIES</a></li>
+            <li class="navbar-item"><a href="#peliculas">PELICULAS</a></li>
+            <li class="navbar-item"><a href="#favoritos">FAVORITOS</a></li>
+            <li class="navbar-item"><a href="index.html">CERRAR SESION</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main">
+        <section id="novedades" class="card-list">
+            <h3 class="section-title">NOVEDADES</h3>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/birds-of-prey.jpg" alt="Portada Aves de Presa">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">Birds of Prey</div> 
+                        <div class="meta">
+                            <span class="rating">6.7/5</span>
+                            <span class="pub-date">2020</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">GO FISH</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h15min</span>
-                            </div>
-                            <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
-                            coral sea destruido.</div>
+                        <div class="description">Después de separarse de Joker, Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée Montoya, unen sus fuerzas para salvar a una niña del malvado rey del crimen Máscara Negra.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">GO FISH</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span>
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">A CINDERELLA STORY</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h26min</span>
-                            </div>
-                            <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
+                        <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
+                            coral sea destruido.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">A CINDERELLA STORY</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">IT</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h50min</span>
-                            </div>
-                            <div class="description">
-                             En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
-                            de otros.</div>
+                        <div class="description">
+                            A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">IT</div>
+                        <div class="meta">
+                            <span class="rating">3.9/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">LOS ANGELES DE CHARLIE</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>120min</span>
-                            </div>
-                            <div class="description">
+                        <div class="description">
+                            En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
+                            de otros.
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">LOS ANGELES DE CHARLIE</div>
+                        <div class="meta">
+                            <span class="rating">2.9/5</span> 
+                            <span class="pub-date">2019</span>
+                        </div>
+                        <div class="description">
                             La agencia de detectives Townsed es conocida por los servicios ofrecidos por sus Angeles: un trío de mujeres que cambia de una generación a otra. La agencia se ha hecho internacional
-                            y ahora tiene vario equipos de Ángeles en todo el mundo.</div>
+                            y ahora tiene vario equipos de Ángeles en todo el mundo.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                    <div class="card-content">
+                        <div class="title-card">DOWNTON ABBEY</div>
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">DOWNTON ABBEY</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h03min</span>
-                            </div>
-                            <div class="description">
+                        <div class="description">
                              La familia Crawley y sus sirvientes se preparan para el momento más importante de sus vidas, la llegada del rey Jorge V y la reina María. Sin embargo, la visita de los reyes de Inglaterra
-                            pronto desencadena escándalos, romances e intrigas.</div>
+                            pronto desencadena escándalos, romances e intrigas.
                         </div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </a>
+            </article>
         </section>
-        <section id="series">
-            <div class="title-flex">
-                <h3>SERIES</h3>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+
+        <section id="series" class="card-list">
+            <h3 class="section-title">SERIES</h3>
+            
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/birds-of-prey.jpg" alt="Portada Aves de Presa">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">Birds of Prey</div> 
+                        <div class="meta">
+                            <span class="rating">3.8/5</span>
+                            <span class="pub-date">2020</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">GO FISH</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h15min</span>
-                            </div>
-                            <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
-                            coral sea destruido.</div>
+                        <div class="description">Después de separarse de Joker, Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée Montoya, unen sus fuerzas para salvar a una niña del malvado rey del crimen Máscara Negra.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">GO FISH</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span>
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">A CINDERELLA STORY</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h26min</span>
-                            </div>
-                            <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
+                        <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
+                            coral sea destruido.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">A CINDERELLA STORY</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">IT</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h50min</span>
-                            </div>
-                            <div class="description">
-                             En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
-                            de otros.</div>
+                        <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">IT</div>
+                        <div class="meta">
+                            <span class="rating">3.9/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                        <div class="description">
+                            En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
+                            de otros.
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">LOS ANGELES DE CHARLIE</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>120min</span>
-                            </div>
-                            <div class="description">
+                    </div> 
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">LOS ANGELES DE CHARLIE</div>
+                        <div class="meta">
+                            <span class="rating">2.9/5</span> 
+                            <span class="pub-date">2019</span>
+                        </div>
+                        <div class="description">
                             La agencia de detectives Townsed es conocida por los servicios ofrecidos por sus Angeles: un trío de mujeres que cambia de una generación a otra. La agencia se ha hecho internacional
-                            y ahora tiene vario equipos de Ángeles en todo el mundo.</div>
+                            y ahora tiene vario equipos de Ángeles en todo el mundo.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                    <div class="card-content">
+                        <div class="title-card">DOWNTON ABBEY</div>
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">DOWNTON ABBEY</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h03min</span>
-                            </div>
-                            <div class="description">
+                        <div class="description">
                              La familia Crawley y sus sirvientes se preparan para el momento más importante de sus vidas, la llegada del rey Jorge V y la reina María. Sin embargo, la visita de los reyes de Inglaterra
-                            pronto desencadena escándalos, romances e intrigas.</div>
+                            pronto desencadena escándalos, romances e intrigas.
                         </div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </a>
+            </article>
         </section>
-        <section id="peliculas">
-            <div class="title-flex">
-                <h3>PELICULAS</h3>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+
+        <section id="peliculas" class="card-list">
+            <h3 class="section-title">PELICULAS</h3>
+            
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/birds-of-prey.jpg" alt="Portada Aves de Presa">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">Birds of Prey</div> 
+                        <div class="meta">
+                            <span class="rating">3.8/5</span>
+                            <span class="pub-date">2020</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">GO FISH</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h15min</span>
-                            </div>
-                            <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
-                            coral sea destruido.</div>
+                        <div class="description">Después de separarse de Joker, Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée Montoya, unen sus fuerzas para salvar a una niña del malvado rey del crimen Máscara Negra.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                </a>
+            </article>
+            
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/go-fish.jpg" alt="Portada Go Fish">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">GO FISH</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span>
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">A CINDERELLA STORY</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h26min</span>
-                            </div>
-                            <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
+                        <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
+                            coral sea destruido.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">A CINDERELLA STORY</div> 
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">IT</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h50min</span>
-                            </div>
-                            <div class="description">
-                             En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
-                            de otros.</div>
+                        <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/it.jpg" alt="Portada It">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">IT</div>
+                        <div class="meta">
+                            <span class="rating">3.9/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                        <div class="description">
+                            En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
+                            de otros.
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">LOS ANGELES DE CHARLIE</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>120min</span>
-                            </div>
-                            <div class="description">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
+                    </div>
+                    <div class="card-content">
+                        <div class="title">LOS ANGELES DE CHARLIE</div>
+                        <div class="meta">
+                            <span class="rating">2.9/5</span> 
+                            <span class="pub-date">2019</span>
+                        </div>
+                        <div class="description">
                             La agencia de detectives Townsed es conocida por los servicios ofrecidos por sus Angeles: un trío de mujeres que cambia de una generación a otra. La agencia se ha hecho internacional
-                            y ahora tiene vario equipos de Ángeles en todo el mundo.</div>
+                            y ahora tiene vario equipos de Ángeles en todo el mundo.
                         </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                </a>
+            </article>
+
+            <article class="info-card">
+                <a href="third.html">
+                    <div class="cover">
+                        <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
+                    </div>
+                    <div class="card-content">
+                        <div class="title-card">DOWNTON ABBEY</div>
+                        <div class="meta">
+                            <span class="rating">4.5/5</span> 
+                            <span class="pub-date">2019</span>
                         </div>
-                        <div class="card-overlay">
-                            <div class="title-card">DOWNTON ABBEY</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h03min</span>
-                            </div>
-                            <div class="description">
+                        <div class="description">
                              La familia Crawley y sus sirvientes se preparan para el momento más importante de sus vidas, la llegada del rey Jorge V y la reina María. Sin embargo, la visita de los reyes de Inglaterra
-                            pronto desencadena escándalos, romances e intrigas.</div>
+                            pronto desencadena escándalos, romances e intrigas.
                         </div>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="favoritos">
-            <div class="title-flex">
-                <h3>FAVORITOS</h3>
-            </div>
-            <div class="card-container">
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/go-fish.jpg" alt="Portada Go Fish">
-                        </div>
-                        <div class="card-overlay">
-                            <div class="title-card">GO FISH</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h15min</span>
-                            </div>
-                            <div class="description">Cuando un misterioso goop negro llega a su idílico pueblo submarino, un pez loro valiente y desinteresado debe cruzar el océano para encontrar su fuente y arreglarlo antes de que su arrecife de
-                            coral sea destruido.</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/deseo-de-navidad.jpg" alt="Portada Deseo de Navidad">
-                        </div>
-                        <div class="card-overlay">
-                            <div class="title-card">A CINDERELLA STORY</div> 
-                            <div class="info">
-                                <span>2019</span>
-                                <span>+7</span> 
-                                <span>1h26min</span>
-                            </div>
-                            <div class="description">A pesar de que su madrastra y hermanastras sean horribles, esta aspirante a cantante, que trabaja de elfa en un vivero de abetos, vive su propio milagro navideño.</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/it.jpg" alt="Portada It">
-                        </div>
-                        <div class="card-overlay">
-                            <div class="title-card">IT</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h50min</span>
-                            </div>
-                            <div class="description">
-                             En el misterioso pueblo de Derry, un malvado payaso llamado Pennywise vuelve 27 años después para atormentar a los ya adultos miembros del club de los Perdedores, que ahora están más alejados unos
-                            de otros.</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/los-angeles-de-charlie.jpg" alt="Portada Angeles de Charlie">
-                        </div>
-                        <div class="card-overlay">
-                            <div class="title-card">LOS ANGELES DE CHARLIE</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>120min</span>
-                            </div>
-                            <div class="description">
-                            La agencia de detectives Townsed es conocida por los servicios ofrecidos por sus Angeles: un trío de mujeres que cambia de una generación a otra. La agencia se ha hecho internacional
-                            y ahora tiene vario equipos de Ángeles en todo el mundo.</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a href="third.html">
-                        <div class="card-image">
-                            <img src="./img/downton-abbey.jpg" alt="Portada Downton Abbey">
-                        </div>
-                        <div class="card-overlay">
-                            <div class="title-card">DOWNTON ABBEY</div>
-                            <div class="info">
-                                <span>2019</span>
-                                <span>16+</span> 
-                                <span>2h03min</span>
-                            </div>    
-                            <div class="description">
-                             La familia Crawley y sus sirvientes se preparan para el momento más importante de sus vidas, la llegada del rey Jorge V y la reina María. Sin embargo, la visita de los reyes de Inglaterra
-                            pronto desencadena escándalos, romances e intrigas.</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </a>
+            </article>
         </section>
     </main>
     <footer>

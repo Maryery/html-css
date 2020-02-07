@@ -4,11 +4,10 @@
 }
 
 body {
-    min-width: 320px;
     background-color: black;
 }
 
-main {
+/*main {
     max-width: 100%;
     margin-left: 2rem;
 }
