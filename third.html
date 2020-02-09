@@ -8,63 +8,69 @@
     <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/global.css">
-    <link rel="stylesheet" href="./css/logo.css">
-    <link rel="stylesheet" href="./css/navbar-second.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/second.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/body-third.css">
+    <link rel="stylesheet" href="./css/third.css">
     <title>HBO España - ver series en línea, ver películas en línea</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar" id="navbar">
-            <div class="header-container">
-                <img src="./img/hbo.png">
-            </div>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <a href="./second.html"><span>HBO</span></a>
+        </div>
+
             <input type="checkbox" id="burger-checkbox">
             <label for="burger-checkbox" class="burger-label"></label>
+
             <ul class="navbar-list">
                 <li class="navbar-item"><a href="second.html#novedades">NOVEDADES</a></li>
                 <li class="navbar-item"><a href="second.html#series">SERIES</a></li>
                 <li class="navbar-item"><a href="second.html#peliculas">PELICULAS</a></li>
-                <li class="navbar-item"><a href="second.html#favoritos">FAVORITOS</a></li>
+                <li class="navbar-item"><a href="#">MI PERFIL</a></li>
                 <li class="navbar-item"><a href="index.html">CERRAR SESION</a></li>
             </ul>
-        </nav>
-    </header>
-    <main class="main">
-        <div class="movie">
-            <video class="trailer-video" controls autoplay="autoplay" loop="loop"> 
+    </nav>
+    
+    <header class="header">
+        <div class="background-video">
+            <video class="video-cover" controls autoplay="autoplay" loop="loop"> 
                 <source src="video/it-trailer.mp4" type="video/mp4">
             </video>
         </div>
-        <section class="movie-header">
-            <h1>IT CAPITULO 2</h1>
-            <div class="summary">
-                <div class="summary-year">2019</div>
-                <div class="summary-age">+16</div>
-                <div class="summary-time">2h50min</div>
-            </div>
-            <div class="casting">
-                <ul>
-                    <li>Jessica Chastain</li>
-                    <li>James McAvoy</li>
-                    <li>Isaiah Mustafa</li>
-                    <li>James Ransone</li>
-                    <li>Charles Dikens</li>
-                </ul>
-            </div>
-            <div class="play-video">
-                <a href="#" class="">Ver ahora</a>
-            </div>
+    </header>
+    
+    <main class="main">
+        <section>
+            <header class="movie-header">
+                <h1 itemprop="name">IT CAPITULO 2</h1>
+                <div class="summary">
+                    <div class="summary-year">2019</div>
+                    <div class="summary-age">+16</div>
+                    <div class="summary-time">2h50min</div>
+                    <div class="casting">
+                        <ul>
+                            <li>Jessica Chastain</li>
+                            <li>James McAvoy</li>
+                            <li>Isaiah Mustafa</li>
+                            <li>James Ransone</li>
+                            <li>Charles Dikens</li>
+                        </ul>
+                    </div>
+                    <div class="play-video">
+                        <a href="#" class="">Ver ahora</a>
+                    </div>
+                </div>
+            </header>
+            <article class="text">
+                <p>Han pasado casi 30 años desde que el "Club de los Perdedores", formado por Bill, Berverly, Richie, Ben, Eddie, Mike y Stanley, se enfrentaran al macabro y despiadado Pennywise (Bill Skarsgård). En cuanto tuvieron oportunidad, abandonaron el
+                    pueblo de Derry, en el estado de Maine, que tantos problemas les había ocasionado. Sin embargo, ahora, siendo adultos, parece que no pueden escapar de su pasado. Todos deberán enfrentarse de nuevo al temible payaso para descubrir si de
+                    verdad están preparados para superar sus traumas de la infancia.
+                </p>
+            </article>
         </section>
-        <article class="text">
-            <p>Han pasado casi 30 años desde que el "Club de los Perdedores", formado por Bill, Berverly, Richie, Ben, Eddie, Mike y Stanley, se enfrentaran al macabro y despiadado Pennywise (Bill Skarsgård). En cuanto tuvieron oportunidad, abandonaron el
-                pueblo de Derry, en el estado de Maine, que tantos problemas les había ocasionado. Sin embargo, ahora, siendo adultos, parece que no pueden escapar de su pasado. Todos deberán enfrentarse de nuevo al temible payaso para descubrir si de
-                verdad están preparados para superar sus traumas de la infancia.
-            </p>
-        </article>
+
         <section class="summary-tab-container">
             <section id="similares">
                 <div class="title-flex">
