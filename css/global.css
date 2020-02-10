@@ -1,21 +1,9 @@
 * {
     font-family: 'Heebo', sans-serif;
-    color: white;
+    color: var(--text-color);
 }
 
 body {
-    background-color: black;
+    background-color: var(--bg-color);
 }
 
-/*main {
-    max-width: 100%;
-    margin-left: 2rem;
-}
-
-section {
-    padding: 1rem 0;
-}
-
-section img {
-    max-width: 100%;
-}

@@ -1,0 +1,9 @@
+:root {
+    --header-height: 2rem;
+    --text-color: #EFEFEF;
+    --brand-color: rgb(0, 163, 218);
+    --alt-color: #3388FF;
+    --bg-color: black;
+    --border-color: #EFEFEF;
+    --border-radius: 5px;
+}

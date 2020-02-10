@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/second.css">
@@ -44,11 +45,11 @@
     <main class="main">
         <section>
             <header class="movie-header">
-                <h1 itemprop="name">IT CAPITULO 2</h1>
-                <div class="summary">
-                    <div class="summary-year">2019</div>
-                    <div class="summary-age">+16</div>
-                    <div class="summary-time">2h50min</div>
+                <h1>IT CAPITULO 2</h1>
+                <div class="meta">
+                    <div class="meta-year">2019</div>
+                    <div class="meta-rating">3.9/5</div>
+                    <div class="meta-time">2h50min</div>
                     <div class="casting">
                         <ul>
                             <li>Jessica Chastain</li>
@@ -58,8 +59,8 @@
                             <li>Charles Dikens</li>
                         </ul>
                     </div>
-                    <div class="play-video">
-                        <a href="#" class="">Ver ahora</a>
+                    <div class="actions">
+                        <a href="#" class="btn">Ver ahora</a>
                     </div>
                 </div>
             </header>
@@ -69,109 +70,121 @@
                     verdad están preparados para superar sus traumas de la infancia.
                 </p>
             </article>
-        </section>
+        
 
-        <section class="summary-tab-container">
-            <section id="similares">
-                <div class="title-flex">
-                    <h3>SIMILARES</h3>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <a href="third.html">
-                            <div class="card-image">
-                                <img src="./img/annabelle.jpg" alt="Portada de annabelle">
+            <aside class="related card-list">
+                <h3 class="section-title">SIMILARES</h3>
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/annabelle.jpg" alt="Portada de annabelle">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">ANNABELLE</div>
+                            <div class="meta">
+                                <span class="rating">4.5/5</span>
+                                <span class="pub-date">2015</span>
                             </div>
-                            <div class="card-overlay">
-                                <div class="title-card">ANNABELLE</div>
-                                <div class="info">
-                                    <span>2015</span>
-                                    <span>16+</span> 
-                                    <span>1h15min</span>
-                                </div>
-                                <div class="description">
+                            <div class="description">
                                 Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div> 
                             </div>
                         </a>
                     </div>
-                    <div class="card">
-                        <a href="third.html">
-                            <div class="card-image">
-                                <img src="./img/3-from-hell.jpg" alt="Portada 3 from hell">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="title-card">FROM HELL</div>
-                                <div class="info">
-                                    <span>2017</span>
-                                    <span>16+</span> 
-                                    <span>1h26min</span>
-                                </div>
-                                <div class="description">
-                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="third.html">
-                            <div class="card-image">
-                                <img src="./img/la-horca-2.jpg" alt="Portada la horca 2">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="title-card">LA HORCA</div>
-                                <div class="info">
-                                    <span>2019</span>
-                                    <span>16+</span> 
-                                    <span>2h50min</span>
-                                </div>
-                                <div class="description">
-                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="third.html">
-                            <div class="card-image">
-                                <img src="./img/muneco-diabolico.jpg" alt="Portada muñeco diabolico">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="title-card">MUÑECO DIABOLICO</div>
-                                <div class="info">
-                                    <span>2019</span>
-                                    <span>16+</span> 
-                                    <span>120MIN</span>
-                                </div>
-                                <div class="description">
-                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="third.html">
-                            <div class="card-image">
-                                <img src="./img/la-influencia.jpg" alt="Portada la influencia">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="title-card">LA INFLUENCIA</div>
-                                <div class="info">
-                                    <span>2019</span>
-                                    <span>16+</span> 
-                                    <span>1h15min</span>
-                                </div>
-                                <div class="description">
-                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </section>
-    </main>
-</body>
-<footer>
-    <div class="footer-container">
-        <p>
-            © 2020 Home Box Office, Inc. All Rights Reserved.
-        </p>
-    </div>
-</footer>
 
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/3-from-hell.jpg" alt="Portada 3 from hell">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">FROM HELL</div>
+                            <div class="meta">
+                                <span class="rating">3.9/5</span>
+                                <span class="pub-date">2017</span>
+                            </div>
+                            <div class="description">
+                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                            </div>
+                        </a>
+                    </div>
+
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/la-horca-2.jpg" alt="Portada la horca 2">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">LA HORCA</div>
+                            <div class="meta">
+                                <span class="rating">4.0/5</span>
+                                <span class="pub-date">2019</span>
+                            </div>
+                            <div class="description">
+                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                            </div>
+                        </a>
+                    </div>
+
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/muneco-diabolico.jpg" alt="Portada muñeco diabolico">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">MUÑECO DIABOLICO</div>
+                            <div class="meta">
+                                <span class="rating">2.7/5</span>
+                                <span class="pub-date">2018/span>
+                            </div>
+                            <div class="description">
+                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                            </div>
+                        </a>
+                    </div>
+
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/la-influencia.jpg" alt="Portada la influencia">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">LA INFLUENCIA</div>
+                            <div class="meta">
+                                <span class="rating">3.2/5</span>
+                                <span class="pub-date">2019</span>
+                            </div>
+                            <div class="description">
+                                Donec ac lobortis turpis, ac mattis purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                            </div>
+                        </a>
+                    </div>
+
+                <div class="info-card">
+                    <a href="second.html">
+                        <div class="cover">
+                            <img src="./img/birds-of-prey.jpg" alt="Portada Aves de Presa">
+                        </div>
+                        <div class="card-content">
+                            <div class="title">Birds of Prey</div> 
+                            <div class="meta">
+                                <span class="rating">6.7/5</span>
+                                <span class="pub-date">2020</span>
+                            </div>
+                            <div class="description">Después de separarse de Joker, Harley Quinn y otras tres heroínas, Canario Negro, Cazadora y Renée Montoya, unen sus fuerzas para salvar a una niña del malvado rey del crimen Máscara Negra.</div>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+            <p>
+                © 2020 Home Box Office, Inc. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+</body>
 </html>
