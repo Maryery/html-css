@@ -1,105 +1,105 @@
 .main {
-    margin-top: var(--header-height);
-    min-width: 320px;
+  margin-top: var(--header-height);
+  min-width: 320px;
 }
 
 .background-video {
-    position: absolute;
-    top: 5rem;
-    right: 0rem;
-    left: 0rem;
-    height: 50vh;
-    overflow: hidden;
-    z-index: -1;
+  position: absolute;
+  top: 5rem;
+  right: 0rem;
+  left: 0rem;
+  height: 50vh;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .video-cover {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    min-height: 100%;
-    min-width: 100%;
-    width: auto;
-    height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
 }
 
 .movie-header {
-    padding: 0;
-    margin-top: 2.5rem;
-    padding: 2rem;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  padding: 0;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .movie-header ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .movie-header h1 {
-    margin-top: var(--header-height);
+  margin-top: var(--header-height);
 }
 
 .movie-header .meta {
-    width: 50%;
-    max-width: 250px;
-    display: grid;
-    grid-template-areas:
-      "year    rating    time"
-      "casting casting casting"
-      "actions actions actions";
-    grid-gap: 1rem;
-  }
+  width: 50%;
+  max-width: 250px;
+  display: grid;
+  grid-template-areas:
+    "year    rating    time"
+    "casting casting casting"
+    "actions actions actions";
+  grid-gap: 1rem;
+}
 
 .movie-header .meta [class*="meta-"] {
-    background-color:  var(--brand-color);
-    color: var(--text-color);
-    padding: 0.25rem 0.75rem;
-    text-align: center;
-    border-radius: 1rem;
-    font-size: 0.75rem;
-    font-weight: 700;
+  background-color:  var(--brand-color);
+  color: var(--text-color);
+  padding: 0.25rem 0.75rem;
+  text-align: center;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .movie-header .meta .meta-year {
-    grid-area: year;
-  }
-  
+  grid-area: year;
+}
+
 .movie-header .meta .meta-rating {
-    grid-area: rating;
-  }
-  
+  grid-area: rating;
+}
+
 .movie-header .meta .meta-time {
-    grid-area: time;
-  }
-  
+  grid-area: time;
+}
+
 .movie-header .meta .casting {
-    grid-area: casting;
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
-  }
-  
+  grid-area: casting;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
 .movie-header .meta .casting ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .movie-header .meta .actions {
-    grid-area: actions;
-    margin-top: 1rem 0;
+  grid-area: actions;
+  margin-top: 1rem 0;
 }
 
 .btn {
-    border: 0;
-    border-radius: var(--border-radius);
-    background-color: var(--brand-color);
-    text-decoration: none;
-    padding: 0.75rem;
-    font-size: 1rem;
+  border: 0;
+  border-radius: var(--border-radius);
+  background-color: var(--brand-color);
+  text-decoration: none;
+  padding: 0.75rem;
+  font-size: 1rem;
 }
 
 .text p {

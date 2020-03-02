@@ -1,10 +1,8 @@
-label,
-span {
+label, span {
     color: rgb(161, 161, 161);
 }
 
-#form-email,
-#form-pass {
+#form-email, #form-pass {
     height: 3rem;
     display: block;
     font-size: 1rem;
@@ -60,7 +58,6 @@ button:hover {
     text-decoration: underline;
 }
 
-button,
-.forget-pass-text {
+button, .forget-pass-text {
     transition: color 0.8s linear 0.2s;
 }
